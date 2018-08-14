@@ -1,0 +1,70 @@
+:root {
+  --main-bg-color: black;
+  --main-font-color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title {
+  padding: 2rem;
+  font-size: 8rem;
+}
+
+.hero__number {
+  padding: 3rem;
+}
+
+.hero__number h1 {
+  font-size: 3rem;
+}
+
+.hero__signup p {
+  font-size: 1em;
+}
+
+.btn {
+  margin-top: 0.9rem;
+  font-size: 2rem;
+  background: var(--main-bg-color);
+}
+
+/* Navbar */
+.navbar {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.navbar img {
+  height: 8rem;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 2rem;
+}
+.navbar-collapse li {
+  margin: 0 3rem;
+}
