@@ -20,9 +20,11 @@ body {
   box-sizing: border-box;
 }
 
+/* HEADER */
 .hero {
   font-size: 2rem;
   text-align: center;
+  position: relative;
 }
 
 .title {
@@ -41,12 +43,23 @@ body {
 .hero__signup p {
   font-size: 1em;
 }
+.hero__socialmedia {
+  padding: 1rem 0;
+}
 
 .btn {
   margin-top: 0.9rem;
   font-size: 2rem;
-  background: var(--main-bg-color);
 }
+
+.data-packed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0rem;
+}
+
+/* Footer */
 
 /* Navbar */
 .navbar {
@@ -67,4 +80,42 @@ body {
 }
 .navbar-collapse li {
   margin: 0 3rem;
+}
+
+/*------ Males Page ------*/
+#men4Hire {
+}
+
+#men4Hire p {
+  font-size: 1.3rem;
+}
+
+/*------ Gallery Page ------*/
+
+#gallery__discription .intro {
+  padding: 3rem 0;
+}
+
+#gallery__discription .intro h1 {
+  font-size: 3rem;
+}
+
+#gallery__cards .card {
+}
+
+#gallery__cards {
+  padding: 4rem 0;
+  font-size: 1.3rem;
+}
+
+/* Form */
+form {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+/* TEST */
+#test {
+  height: 150rem;
+  background: aquamarine;
 }
