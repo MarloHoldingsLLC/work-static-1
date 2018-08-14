@@ -19,7 +19,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* ----- Home Page ------ */
 /* HEADER */
 .hero {
   font-size: 2rem;
@@ -59,7 +59,10 @@ body {
   font-size: 0rem;
 }
 
-/* Footer */
+/* FOOTER */
+.footer {
+  text-align: center;
+}
 
 /* Navbar */
 .navbar {
@@ -90,14 +93,20 @@ body {
   font-size: 1.3rem;
 }
 
-/*------ Gallery Page ------*/
+/*------ male-strippers-for-hire Page ------*/
+
+.card-text {
+  font-size: 1.6rem;
+}
+.card-title {
+  font-size: 2rem;
+}
 
 #gallery__discription .intro {
   padding: 3rem 0;
 }
 
 #gallery__discription .intro h1 {
-  font-size: 3rem;
 }
 
 #gallery__cards .card {
@@ -106,6 +115,11 @@ body {
 #gallery__cards {
   padding: 4rem 0;
   font-size: 1.3rem;
+}
+
+/* --- Strippers Pages --- */
+#trouble {
+  padding: 4rem 0;
 }
 
 /* Form */
