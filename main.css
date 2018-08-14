@@ -25,11 +25,16 @@ body {
   font-size: 2rem;
   text-align: center;
   position: relative;
+  background-image: url("./images/MM-Web-optimized.gif");
+  background-position: top;
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  background-color: rgb(87, 86, 86);
 }
 
 .title {
   padding: 2rem;
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 .hero__number {
@@ -71,7 +76,7 @@ body {
 }
 
 .navbar img {
-  height: 8rem;
+  height: 10rem;
 }
 
 .navbar-nav {
